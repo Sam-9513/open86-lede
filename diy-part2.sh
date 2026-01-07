@@ -17,8 +17,8 @@ sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-defaul
 # 修改内核
 #sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=6.12/g" target/linux/x86/Makefile
 #sed -i "s/KERNEL_TESTING_PATCHVER:=*.*/KERNEL_TESTING_PATCHVER:=5.15/g" target/linux/x86/Makefile
-sed -i "s/PKG_VERSION:=*.*.*/PKG_VERSION:=2.0.28/g" feeds/packages/net/uwsgi/Makefile
-sed -i "s/PKG_HASH:=*/PKG_HASH:=88ab9867d8973d8ae84719cf233b7dafc54326fcaec89683c3f9f77c002cdff9/g" feeds/packages/net/uwsgi/Makefile
+#sed -i "s/PKG_VERSION:=*.*.*/PKG_VERSION:=2.0.28/g" feeds/packages/net/uwsgi/Makefile
+#sed -i "s/PKG_HASH:=*/PKG_HASH:=88ab9867d8973d8ae84719cf233b7dafc54326fcaec89683c3f9f77c002cdff9/g" feeds/packages/net/uwsgi/Makefile
 
 #./scripts/feeds update packages
 #rm -rf feeds/packages/lang/golang
